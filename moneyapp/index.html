@@ -1,0 +1,38 @@
+<html>
+  <head>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="savings.js"></script>
+  
+  </head>
+  <body>
+<!-- # in css if its id in HTML and ."string" if its class      -->
+<div class='login'>
+  <h2>The Savings App by Morgan</h2>
+  <form>
+  <!--Input for the name of the product-->
+<input id="itemName" placeholder="What are you saving for?" type="text">
+   <!--Input for the cost of the product-->
+<input id="itemCost" placeholder="How much will it cost?" type="text">
+    <!--Input for the saving per month-->
+<input id="monthlySavings" placeholder="How much do you save per month?" type="text">
+  <!--Button for computing the number of months-->
+  
+   <button type="reset" value="Reset">Reset</button>
+  </form>
+  
+  <button onclick="calculate()">Calculate</button>
+<!--  <marquee> tag is animating the button  -->
+  <!--<marquee><button onclick="calculate()">Calculate</button></marquee>-->
+  <h3 id="resultdisplay"></h3>
+</div>
+
+  
+    
+
+
+</body>
+</html>    

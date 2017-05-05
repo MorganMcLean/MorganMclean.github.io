@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #C26868;
+  color: #435160;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  color: #fafafa;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #435160;
+  text-decoration: none;
+}
+/* # is its id in HTML and ."string" if its class  */
+.login {
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px;
+}
+/* type="text" shows asif its a text box, type="password" shows up in *'s */
+input[type="text"], input[type="password"] {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: #fafafa;
+  font-size: 16px;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+
+
+button {
+  background: yellow;
+  border: 2px dotted;
+  width: 500px;
+  height: 40px;
+  border-radius: 3px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  text-align:center;
+}
+
+/* Placeholders text color anf font size */
+::-webkit-input-placeholder {
+  color: #fafafa;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+#resultdisplay {margin-top:20px;color:white;}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
