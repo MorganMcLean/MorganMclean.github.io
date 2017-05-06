@@ -49,9 +49,9 @@ input[type=checkbox] {
 
 
 button {
-  background: yellow;
-  border: 2px dotted;
-  width: 500px;
+  background: gray;
+  border: 2px dash;
+  width: 350px;
   height: 40px;
   border-radius: 3px;
   color: black;
@@ -59,6 +59,7 @@ button {
   cursor: pointer;
   transition: background 0.3s ease-in-out;
   text-align:center;
+  margin: 4px;
 }
 
 /* Placeholders text color anf font size */
